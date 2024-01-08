@@ -1,0 +1,81 @@
+#logout{
+	display: unset;
+}
+
+#menu{
+	display:  flex !important;
+}
+
+#title_box{
+	top: 30px;
+	position: relative;
+
+	width: 300px;
+	margin: 0 auto;
+}
+
+#back_text{
+	font-size: 80px;
+	color: #68543e23;
+	text-align: center;
+	font-family: "Italianno",cursive;
+}
+
+#title_text{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	font-size: 25px;
+	top: 50px;
+	border-bottom: solid black 1px;
+}
+
+#form_box{
+	margin-top: 100px;
+}
+
+.input_content{
+  border-bottom:  solid rgb(110, 108, 105) 1px;
+  margin-bottom: 20px;
+}
+
+.input_content input{
+  cursor: unset;
+  font-weight: bold;
+  font-size: 16px;
+	width: 100%;
+}
+
+#entry{
+  display: block;
+  margin: 20px auto;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(114, 107, 107);
+  width: 300px;
+  height: 35px;
+  cursor: pointer;
+}
+
+#edit{
+  display: block;
+  margin: 20px auto;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(188, 179, 179);
+  width: 300px;
+  height: 35px;
+  cursor: pointer;
+}
+
+textarea{
+	border: none;
+	outline: none;
+	background-color: unset;
+	resize: none;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+  cursor: unset;
+  font-weight: bold;
+}

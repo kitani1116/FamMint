@@ -1,0 +1,26 @@
+#title h2{
+  margin: 50px auto;
+  padding: 50px 0;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-family: century;
+  border-bottom: solid rgb(110, 108, 105) 1px;
+  width: 300px;
+}
+
+p {
+	text-align: center;
+	margin: 10px;
+}
+
+#back{
+  display: block;
+  margin: 150px auto 0 auto;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(114, 107, 107);
+  width: 300px;
+  height: 35px;
+  cursor: pointer;
+}

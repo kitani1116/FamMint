@@ -1,0 +1,200 @@
+#logout{
+	display: unset;
+}
+
+#childmenu{
+	display:  flex !important;
+}
+
+#content{
+	width: 70vw;
+}
+
+.list_title{
+	margin-top: 150px;
+	background: linear-gradient(rgb(136, 109, 96),  rgb(200, 200, 200));
+	border-radius: 10px 10px 0 0;
+	padding-left: 30px;
+	height: 30px;
+	font-size: 18px;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffffd5;
+}
+
+.list{
+	display: flex;
+width: 100%;
+}
+
+table {
+	margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+}
+
+table th{
+	background-color: #a4a39f8e;
+	border: solid white 2px;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
+
+table td{
+	background-color: rgb(244, 237, 234);
+	border: solid white 2px;
+	width: 100%;
+	height: 50px;
+}
+
+.time{
+	width: 15vw;
+}
+
+.comp_name{
+	width: 20vw;
+}
+
+.mony{
+	width: 8vw;
+	text-align: center;
+}
+
+.child_user{
+	width: 15vw;
+}
+
+.posting_name{
+	width: 12vw;
+}
+
+.detail{
+	width: 38vw;
+}
+
+.button{
+display: flex;
+	width: 60px;
+	text-align: center;
+	border: none;
+}
+
+.button input{
+	border: rgb(233,229,222) 2px solid;
+  background: linear-gradient(rgb(218, 218, 218),  rgba(103, 103, 86, 0.55));
+	border-radius: 5px;
+	width: 70px;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.button input:hover{
+  background: linear-gradient(rgba(103, 103, 86, 0.55),  rgb(218, 218, 218));
+}
+
+.delete{
+	display: flex;
+		width: 60px;
+		text-align: center;
+		border: none;
+	}
+
+.delete button{
+	border: rgb(233,229,222) 2px solid;
+  background: linear-gradient(rgb(218, 218, 218),  rgba(103, 103, 86, 0.55));
+	border-radius: 5px;
+	width: 70px;
+	cursor: pointer;
+	transition: .2s;
+}
+
+button:hover{
+  background: linear-gradient(rgba(103, 103, 86, 0.55),  rgb(218, 218, 218));
+}
+
+
+
+
+
+
+
+.name{
+	width: 10vw;
+	text-align: center;
+}
+
+.content{
+	width: 25vw;
+}
+
+.favorite{
+	width: 6vw;
+}
+
+.complete{
+	width: 6vw;
+}
+
+.chldbutton{
+	width: 60px;
+	text-align: center;
+}
+
+.chldbutton input{
+	border: rgb(233,229,222) 2px solid;
+  background: linear-gradient(rgb(218, 218, 218),  rgba(103, 103, 86, 0.55));
+	border-radius: 5px;
+	width: 70px;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.chldbutton input:hover{
+  background: linear-gradient(rgba(103, 103, 86, 0.55),  rgb(218, 218, 218));
+}
+
+.chldbutton button{
+	border: rgb(233,229,222) 2px solid;
+  background: linear-gradient(rgb(218, 218, 218),  rgba(103, 103, 86, 0.55));
+	border-radius: 5px;
+	width: 70px;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.chldbutton button:hover{
+  background: linear-gradient(rgba(103, 103, 86, 0.55),  rgb(218, 218, 218));
+}
+
+
+#emptytext{
+		margin-top: 20px;
+}
+
+#emptytext p{
+	display: block;
+	font-weight: bold;
+}
+
+#possession_money{
+	display: block;
+	margin-top: 100px;
+}
+
+#possession_money h2{
+	color: black;
+}
+
+#confirmation{
+	cursor: default;
+	background: linear-gradient(rgba(103, 103, 86, 0.55),  rgb(218, 218, 218));
+}
+
+#confirmation:hover{
+	background: linear-gradient(rgba(103, 103, 86, 0.55),  rgb(218, 218, 218));
+}

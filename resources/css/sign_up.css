@@ -1,0 +1,88 @@
+#title h2{
+  margin: 50px auto;
+  padding: 50px 0;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-family: century;
+  border-bottom: solid rgb(110, 108, 105) 1px;
+  width: 300px;
+}
+
+input {
+  border-bottom: solid black 1px;
+  margin-bottom: 40px;
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#name {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+}
+
+input:hover{
+  background-color:  rgb(251, 245, 240);
+}
+
+input:focus{
+  background-color:  rgb(251, 245, 240);
+}
+
+
+#conf{
+  display: block;
+  margin: 20px auto;
+  border: none;
+  border-radius: 50px;
+  background-color:rgb(114, 107, 107);
+  width: 300px;
+  cursor: pointer;
+}
+
+#back{
+  display: block;
+  margin: 20px auto;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(188, 179, 179);
+  width: 300px;
+  cursor: pointer;
+}
+
+.error_text{
+  color: red;
+}
+
+#name_error{
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#sei{
+  position: absolute;
+}
+
+#mei {
+  position: absolute;
+  left: 275px;
+}
+
+#text{
+  margin-bottom: 50px;
+}
+
+#text p{
+	display: block;
+	font-size: 13px;
+  margin: 2px 0;
+}

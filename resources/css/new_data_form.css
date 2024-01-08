@@ -1,0 +1,108 @@
+#logout{
+	display: unset;
+}
+
+#menu{
+	display:  flex !important;
+}
+
+#title_box{
+	top: 30px;
+	position: relative;
+
+	width: 300px;
+	margin: 0 auto;
+}
+
+#back_text{
+	font-size: 80px;
+	color: #68543e23;
+	text-align: center;
+	font-family: "Italianno",cursive;
+}
+
+#title_text{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	font-size: 25px;
+	top: 50px;
+	border-bottom: solid black 1px;
+}
+
+#form_box{
+	margin-top: 100px;
+}
+
+#content input {
+  border-bottom: solid black 1px;
+  margin-bottom: 40px;
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#content input:hover{
+  background-color:  rgb(251, 245, 240);
+}
+
+#content input:focus{
+  background-color:  rgb(251, 245, 240);
+}
+
+textarea{
+	border: none;
+	outline: none;
+	background-color: unset;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+	resize: none;
+	width: 100%;
+	height: 50px;
+	border-bottom: solid black 1px;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+textarea:hover{
+  background-color:  rgb(251, 245, 240);
+}
+
+textarea:focus{
+  background-color:  rgb(251, 245, 240);
+}
+
+#conf{
+  display: block;
+  margin: 20px auto !important;
+  border: none !important;
+  border-radius: 50px;
+  background-color:rgb(114, 107, 107) !important;
+  width: 300px !important;
+  cursor: pointer;
+}
+
+#back{
+	
+  display: block;
+  margin: 20px auto !important;
+  border: none !important;
+  border-radius: 50px;
+  background-color: rgb(188, 179, 179) !important;
+  width: 300px !important;
+  cursor: pointer;
+}
+
+.error_text{
+  color: red;
+}

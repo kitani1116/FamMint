@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Italianno);
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;border: none;outline: none;background-color: unset;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+input:-webkit-autofill{
+	box-shadow: 0 0 0px 1000px rgb(233,229,222) inset;
+}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	background-color: rgb(233,229,222);
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 60px;
+  color: rgb(80, 75, 75);
+  border-color: rgb(80, 75, 75);
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#header{
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	top: 0;
+	background-color: rgb(77, 73, 71);
+	height: 50px;
+	width: 100%;
+	z-index: 5;
+}
+
+#logout{
+	display: none;
+}
+
+#logout input{
+	font-size: 16px;
+	color: #eeeeee;
+	cursor: pointer;
+}
+
+.fa-solid{
+	color: #fff;
+	cursor: pointer;
+}
+
+#h-logo{
+	display: inline-block;
+}
+
+#header img{
+	margin-top: 5px;
+	margin-left: 3vw;
+	max-width: 10vw;
+	min-width: 200px;
+	object-fit: contain;
+}
+
+#menu{
+	display: none !important;
+	display: flex;
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	justify-content: center;
+	background: linear-gradient(rgb(85, 67, 58),  rgb(197, 192, 183));
+	height: 30px;
+	z-index: 5;
+}
+
+#menu a {
+	display: block;
+	width: 100px;
+	height: 30px;
+	margin: auto 40px;
+	padding: 5px 0;
+	text-align: center;
+	color: #fff;
+	transition: all .5s;
+}
+
+#menu a:hover{
+	background: linear-gradient(rgba(197, 192, 183, 0.63),  rgba(0, 0, 0, 0));
+	border-bottom: #000 1px solid;
+}
+
+#childmenu{
+	display: none !important;
+	display: flex;
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	justify-content: space-between;
+	background: linear-gradient(rgb(85, 67, 58),  rgb(197, 192, 183));
+	height: 30px;
+	z-index: 5;
+}
+
+#element{
+	display: flex;
+	margin-top: 5px;
+}
+
+#element a{
+	display: block;
+	width: 80px;
+	margin: auto 20px;
+	padding-top: 0px;
+	text-align: center;
+	color: #fff;
+	transition: all .5s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+#element a:hover{
+	background: linear-gradient(rgba(197, 192, 183, 0.63),  rgba(0, 0, 0, 0));
+	border-bottom: #000 1px solid;
+}
+
+
+#search{
+	display: flex;
+}
+
+select{
+	background: linear-gradient(white, #e7e4dd);
+	border-radius: 5px;
+	height: 30px;
+	margin-right: 5px;
+}
+
+#search_box{
+	margin-top: 2px;
+}
+
+#search_box input{
+	background-color: #e7e4dd;
+	height: 25px;
+	border-radius: 5px;
+}
+
+#content{
+  display: block;
+	margin: 50px auto;
+	width: 500px;
+}
+
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	min-width: 100%;
+	height: 30px;
+	background-color: darkgray;
+	text-align: center;
+}

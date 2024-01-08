@@ -1,0 +1,81 @@
+#title h2{
+  margin: 50px auto;
+  padding: 50px 0;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-family: century;
+  border-bottom: solid rgb(110, 108, 105) 1px;
+  width: 300px;
+}
+
+h3{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input_content{
+  border-bottom:  solid rgb(110, 108, 105) 1px;
+  margin-bottom: 50px;
+}
+
+input{
+  cursor: unset;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+#name {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  margin-bottom: 30px;
+}
+
+#fullname{
+
+}
+
+#last_name, #first_name{
+  border-bottom:  solid rgb(110, 108, 105) 1px;
+}
+
+#entry{
+  display: block;
+  font-size: 14px !important;
+  font-weight: normal;
+  margin: 20px auto;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(114, 107, 107);
+  width: 300px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#edit{
+  display: block;
+  font-size: 14px !important;
+  font-weight: normal;
+  margin: 20px auto;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(188, 179, 179);
+  width: 300px;
+  height: 30px;
+  cursor: pointer;
+}
+
+textarea{
+	border: none;
+	outline: none;
+	background-color: unset;
+	resize: none;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+  cursor: unset;
+  font-weight: bold;
+}

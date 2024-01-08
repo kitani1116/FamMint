@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./sample.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://kit.fontawesome.com/7cb37501fb.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="header">
+    <a href="index.php" id="h-logo"><img src="../public/img/ロゴ(white).png" ></a> 
+
+    <div id="logout">
+      <i class="fa-solid fa-right-from-bracket">
+        <input type="button" value="Logout"></i>
+    </div>
+  </div>
+
+
+
+  <div id="menu">
+    <div id="top">
+      <a href="./newjob">TOP</a>
+    </div>
+    <div id="Newjob">
+      <a href="./newjob">仕事の追加</a>
+    </div>
+    <div id="Newitem">
+      <a href="./newitem">商品の追加</a>
+    </div>
+    <div id="othermenu">
+      <a href="./othermenu">設定</a>
+    </div>
+  </div>
+
+  <div id="childmenu">
+    <div id="element">
+      <div id="favorite">
+        <a href="./favorite">お気に入り</a>
+      </div>
+      <div id="history">
+        <a href="./history">取引履歴</a>
+      </div>
+    </div>
+    <form action="">
+      <div id="search">
+          <div id="category">
+            <select name="" id="">
+              <option>ご選択ください</option>
+              <option>仕事</option>
+              <option>商品</option>
+            </select>
+          </div>
+          <div id="search_box">
+            <input type="text" placeholder="キーワード">
+            <input type="submit" value="検索">
+          </div>
+      </div>
+    </form>
+  </div>
+
+
+  <div id="content">
+
+
+
+
+<!---ここに入力↓↓---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+<div class="list_title">
+  <h2>掲載中の仕事</h2>
+</div>
+<div class="list">
+  <table>
+    <tr>
+      <th class="name">仕事名</th>
+      <th class="content">内容</th>
+      <th class="mony">報酬</th>
+      <th class="favorite">お気に入り</th>
+      <th class="complete">完了</th>
+    </tr>
+
+    <tr>
+      <td class="name">お風呂掃除</td>
+      <td  class="content">浴槽、排水溝の掃除</td>
+      <td class="mony">100ペイ</td>
+      <td class="chldbutton favorite"><input type="button" value="追加"></td>
+      <td class="chldbutton complete"><input type="button" value="完了"></td>
+    </tr>
+  </table>
+
+</div>
+
+
+<div class="list_title">
+  <h2>掲載中の商品</h2>
+</div>
+<div class="list">
+  <table>
+    <tr>
+      <th class="name">商品名</th>
+      <th class="content">内容</th>
+      <th class="mony">価格</th>
+      <th class="favorite">お気に入り</th>
+      <th class="complete">購入</th>
+    </tr>
+
+    <tr>
+      <td class="name">お菓子</td>
+      <td class="content">チョコボール</td>
+      <td class="mony">100ペイ</td>
+      <td class="chldbutton"><input type="button" value="追加"></td>
+      <td class="chldbutton"><input type="button" value="削除"></td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------->
+
+</div>
+
+  <div id="footer">
+    <small>Copyright © KITANI SHOU All Rights Reserved.</small>
+  </div>
+</body>
+</html>

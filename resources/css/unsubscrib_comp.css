@@ -1,0 +1,67 @@
+#logout{
+	display: unset;
+}
+
+#menu{
+	display:  flex !important;
+}
+
+#title_box{
+	top: 30px;
+	position: relative;
+
+	width: 300px;
+	margin: 0 auto;
+}
+
+#back_text{
+	font-size: 80px;
+	color: #68543e23;
+	text-align: center;
+	font-family: "Italianno",cursive;
+}
+
+#title_text{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	font-size: 23px;
+	top: 50px;
+	border-bottom: solid black 1px;
+}
+
+#comp_text{
+	margin-top: 100px;
+}
+
+#comp_text h2 {
+	font-size: 20px;
+  font-weight: bold;
+}
+
+#comp_text p {
+	text-align: left;
+}
+
+#execution{
+  display: block;
+  margin: 150px auto 0 auto;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(114, 107, 107);
+  width: 300px;
+  height: 35px;
+  cursor: pointer;
+}
+
+#back{
+	
+  display: block;
+  margin: 20px auto !important;
+  border: none !important;
+  border-radius: 50px;
+  background-color: rgb(188, 179, 179) !important;
+  width: 300px !important;
+  height: 35px;
+  cursor: pointer;
+}
